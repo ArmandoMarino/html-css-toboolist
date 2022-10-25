@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 
-/* Generic*/
+/* Generic   TO DO*/   
 body{
     background-color: lightgray;
+    width: TODO;
+    margin: 0 auto;
 }
 
 .logo{
@@ -23,6 +25,8 @@ body{
 
 header{
     margin: 2px;
+    background-color: white;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -33,7 +37,8 @@ header{
 .div-button{
     padding: 5px;
     background-color: white;
-
+    padding: 10px;
+    margin-bottom: 5px;
 }
 
 .button{
@@ -52,4 +57,12 @@ header{
     border: solid 1px;
     border-color:black;
     box-sizing: border-box;
+}
+
+.lista{
+
+}
+
+.freccia-giù{
+    
 }
