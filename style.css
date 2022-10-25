@@ -7,9 +7,34 @@
 
 /* Generic*/
 .logo{
-
+    width: 50px;
+    padding: 2px;
 }
+
+
+
 
 .titolo-logo{
     display: inline;
+}
+
+/*MAIN*/
+
+header{
+    margin: 2px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.div-button{
+    
+}
+
+.button{
+    background-color: rgb(30,144,255);
+    border: 0;
+    padding: 5px;
 }
