@@ -123,6 +123,7 @@ p{
     font-size: 12px;
     text-align: center;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .etichetta-viola{
