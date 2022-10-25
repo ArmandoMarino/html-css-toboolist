@@ -42,7 +42,6 @@ header{
 .container{
     width: 50%;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 
 /*BUTTONS*/
@@ -74,6 +73,7 @@ header{
 /*INIZIO LISTA*/
 .lista{
     background-color: white;
+    padding: 30px;
 }
 
 h3{
