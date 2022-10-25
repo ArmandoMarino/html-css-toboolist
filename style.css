@@ -100,7 +100,7 @@ p{
     border: red solid 1px;
 }
 
-/*ETICHETTE*/
+/*ETICHETTE COLORATE*/
 
 .etichetta-blu{
     display: inline-block;
@@ -119,5 +119,18 @@ p{
 }
 
 .etichetta-verde{
-    background-color: green;
+    background-color: rgb(100,192,169);
 }
+
+.etichetta-arancione{
+    background-color: rgb(242,158,51);
+}
+
+.etichetta-rosa{
+    background-color: rgb(216,99,161);
+}
+
+.etichetta-verde-chiaro{
+    background-color: rgb(189,210,74);
+}
+
