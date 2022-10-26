@@ -38,6 +38,10 @@ header{
     vertical-align: middle;
 }
 
+h3{
+    padding-bottom: 15px;
+}
+
 /*CONTAINER*/
 .container{
     width: 50%;
@@ -50,6 +54,7 @@ header{
     background-color: white;
     padding: 10px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 .button{
@@ -75,10 +80,7 @@ header{
 .lista{
     background-color: white;
     padding: 30px;
-}
-
-h3{
-    padding-bottom: 15px;
+    border-radius: 5px;
 }
 
 .freccia-giù{
@@ -90,7 +92,11 @@ p{
     display: inline-block;
 }
 
-.oggetto-lista{
+ul{
+    list-style-type: none;
+}
+
+li{
     line-height: 15px;
     padding-bottom: 15px;
 }
@@ -113,9 +119,8 @@ p{
 
 /*ETICHETTE COLORATE*/
 
-.etichetta-blu{
+.badge{
     display: inline-block;
-    background-color: rgb(69,171,234);
     color: white;
     height: 20px;
     width: 60px;
@@ -126,23 +131,27 @@ p{
     cursor: pointer;
 }
 
-.etichetta-viola{
+.bg-blu{
+    background-color: rgb(69,171,234);
+}
+
+.bg-viola{
     background-color: blueviolet;
 }
 
-.etichetta-verde{
+.bg-verde{
     background-color: rgb(100,192,169);
 }
 
-.etichetta-arancione{
+.bg-arancione{
     background-color: rgb(242,158,51);
 }
 
-.etichetta-rosa{
+.bg-rosa{
     background-color: rgb(216,99,161);
 }
 
-.etichetta-verde-chiaro{
+.bg-verde-chiaro{
     background-color: rgb(189,210,74);
 }
 
